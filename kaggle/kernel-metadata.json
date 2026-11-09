@@ -1,0 +1,18 @@
+{
+  "id": "sadiyamaheensiddiqui/fedderm-efficientnet-fedprox",
+  "title": "FedDerm EfficientNet FedProx",
+  "code_file": "fedderm_tpu.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "machine_shape": "",
+  "dataset_sources": [
+    "kmader/skin-cancer-mnist-ham10000"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

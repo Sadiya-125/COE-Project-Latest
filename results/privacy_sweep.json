@@ -1,0 +1,33 @@
+{
+  "rounds": 8,
+  "mode": "example",
+  "points": [
+    {
+      "noise_multiplier": 0.3,
+      "epsilon": 991.8138967966469,
+      "delta": 1e-05,
+      "balanced_accuracy": 0.32281683712084025,
+      "macro_f1": 0.228005304431343,
+      "malignant_sensitivity": 0.9022801302931596,
+      "noise_to_signal": 0.6692093742046935
+    },
+    {
+      "noise_multiplier": 1.0,
+      "epsilon": 65.98024960302709,
+      "delta": 1e-05,
+      "balanced_accuracy": 0.32233817051352076,
+      "macro_f1": 0.2504119080842462,
+      "malignant_sensitivity": 0.7328990228013029,
+      "noise_to_signal": 2.230697914015645
+    },
+    {
+      "noise_multiplier": 3.0,
+      "epsilon": 12.346095741922674,
+      "delta": 1e-05,
+      "balanced_accuracy": 0.29933491873058765,
+      "macro_f1": 0.24160905271159452,
+      "malignant_sensitivity": 0.5472312703583062,
+      "noise_to_signal": 6.692093742046936
+    }
+  ]
+}

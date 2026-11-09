@@ -1,0 +1,37 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local HAM10000 data and generated caches
+archive/
+artifacts/
+
+# Kaggle training outputs and model weights
+kaggle/output*/
+*.weights.h5
+
+# Frontend dependencies and build output
+web/node_modules/
+web/dist/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

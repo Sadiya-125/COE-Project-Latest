@@ -1,0 +1,340 @@
+{
+  "mode": "centralized_b0_256_ft120_w090",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4447996616363525,
+      "val_accuracy": 0.6713995943204868,
+      "val_balanced_accuracy": 0.6095910403386345,
+      "val_macro_f1": 0.550054275799352,
+      "val_malignant_sensitivity": 0.84688995215311,
+      "elapsed_s": 97.61287641525269
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.036756992340088,
+      "val_accuracy": 0.7363083164300203,
+      "val_balanced_accuracy": 0.703113468871733,
+      "val_macro_f1": 0.5937439494227184,
+      "val_malignant_sensitivity": 0.784688995215311,
+      "elapsed_s": 143.1615641117096
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.8663917779922485,
+      "val_accuracy": 0.7515212981744422,
+      "val_balanced_accuracy": 0.7234971468142135,
+      "val_macro_f1": 0.6203078785112869,
+      "val_malignant_sensitivity": 0.84688995215311,
+      "elapsed_s": 190.80632758140564
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.7859456539154053,
+      "val_accuracy": 0.7799188640973631,
+      "val_balanced_accuracy": 0.7282416711732193,
+      "val_macro_f1": 0.6557232809662892,
+      "val_malignant_sensitivity": 0.8755980861244019,
+      "elapsed_s": 237.70558834075928
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.7300777435302734,
+      "val_accuracy": 0.7251521298174443,
+      "val_balanced_accuracy": 0.7339401302424159,
+      "val_macro_f1": 0.6106735066215936,
+      "val_malignant_sensitivity": 0.8947368421052632,
+      "elapsed_s": 285.10505843162537
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.6956563591957092,
+      "val_accuracy": 0.7799188640973631,
+      "val_balanced_accuracy": 0.721745004730493,
+      "val_macro_f1": 0.6713629339255763,
+      "val_malignant_sensitivity": 0.9090909090909091,
+      "elapsed_s": 332.0255765914917
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.6442126631736755,
+      "val_accuracy": 0.8113590263691683,
+      "val_balanced_accuracy": 0.7291472831241255,
+      "val_macro_f1": 0.6753144210683043,
+      "val_malignant_sensitivity": 0.8899521531100478,
+      "elapsed_s": 378.93749928474426
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.615777313709259,
+      "val_accuracy": 0.7870182555780934,
+      "val_balanced_accuracy": 0.733479254404365,
+      "val_macro_f1": 0.6859864780134611,
+      "val_malignant_sensitivity": 0.8995215311004785,
+      "elapsed_s": 426.26018953323364
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.5869113802909851,
+      "val_accuracy": 0.821501014198783,
+      "val_balanced_accuracy": 0.7194064345911713,
+      "val_macro_f1": 0.6733783231636,
+      "val_malignant_sensitivity": 0.8564593301435407,
+      "elapsed_s": 473.64193654060364
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.5663318037986755,
+      "val_accuracy": 0.8204868154158215,
+      "val_balanced_accuracy": 0.7687408173704775,
+      "val_macro_f1": 0.7093377670818896,
+      "val_malignant_sensitivity": 0.8851674641148325,
+      "elapsed_s": 522.056832075119
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.5449721813201904,
+      "val_accuracy": 0.8265720081135902,
+      "val_balanced_accuracy": 0.7384205826284347,
+      "val_macro_f1": 0.6977199209788872,
+      "val_malignant_sensitivity": 0.861244019138756,
+      "elapsed_s": 570.3024899959564
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.5198496580123901,
+      "val_accuracy": 0.8225152129817445,
+      "val_balanced_accuracy": 0.7470809673363944,
+      "val_macro_f1": 0.6994528362780557,
+      "val_malignant_sensitivity": 0.861244019138756,
+      "elapsed_s": 618.2378075122833
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.5199268460273743,
+      "val_accuracy": 0.8296146044624746,
+      "val_balanced_accuracy": 0.7357189327981465,
+      "val_macro_f1": 0.706826685836569,
+      "val_malignant_sensitivity": 0.84688995215311,
+      "elapsed_s": 666.3448262214661
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.5059924721717834,
+      "val_accuracy": 0.8123732251521298,
+      "val_balanced_accuracy": 0.7399956875534759,
+      "val_macro_f1": 0.6968707706324035,
+      "val_malignant_sensitivity": 0.8995215311004785,
+      "elapsed_s": 713.9476075172424
+    }
+  ],
+  "val": {
+    "accuracy": 0.8204868154158215,
+    "balanced_accuracy": 0.7687408173704775,
+    "macro_precision": 0.6696331683732553,
+    "macro_recall": 0.7687408173704775,
+    "macro_f1": 0.7093377670818896,
+    "malignant_sensitivity": 0.8851674641148325,
+    "malignant_specificity": 0.8712998712998713,
+    "per_class_recall": {
+      "akiec": 0.75,
+      "bcc": 0.8490566037735849,
+      "bkl": 0.6633663366336634,
+      "df": 0.5833333333333334,
+      "mel": 0.7583333333333333,
+      "nv": 0.8604294478527608,
+      "vasc": 0.9166666666666666
+    },
+    "confusion_matrix": [
+      [
+        27,
+        4,
+        0,
+        1,
+        3,
+        1,
+        0
+      ],
+      [
+        2,
+        45,
+        0,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        4,
+        7,
+        67,
+        2,
+        14,
+        7,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        7,
+        1,
+        1,
+        0
+      ],
+      [
+        8,
+        3,
+        6,
+        2,
+        91,
+        10,
+        0
+      ],
+      [
+        6,
+        4,
+        14,
+        1,
+        62,
+        561,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        11
+      ]
+    ],
+    "num_samples": 986
+  },
+  "test": {
+    "accuracy": 0.7956058588548602,
+    "balanced_accuracy": 0.765390709881661,
+    "macro_precision": 0.6618397705955152,
+    "macro_recall": 0.765390709881661,
+    "macro_f1": 0.7018287494646627,
+    "malignant_sensitivity": 0.8306188925081434,
+    "malignant_specificity": 0.8644351464435146,
+    "per_class_recall": {
+      "akiec": 0.7592592592592593,
+      "bcc": 0.8433734939759037,
+      "bkl": 0.6781609195402298,
+      "df": 0.7,
+      "mel": 0.6941176470588235,
+      "nv": 0.8328236493374108,
+      "vasc": 0.85
+    },
+    "confusion_matrix": [
+      [
+        41,
+        8,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        70,
+        1,
+        0,
+        4,
+        4,
+        2
+      ],
+      [
+        17,
+        0,
+        118,
+        1,
+        28,
+        10,
+        0
+      ],
+      [
+        3,
+        2,
+        0,
+        14,
+        1,
+        0,
+        0
+      ],
+      [
+        6,
+        4,
+        11,
+        0,
+        118,
+        30,
+        1
+      ],
+      [
+        12,
+        6,
+        40,
+        4,
+        91,
+        817,
+        11
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        17
+      ]
+    ],
+    "num_samples": 1502
+  },
+  "wall_time_s": 791.3255922794342,
+  "num_params": 4058538,
+  "privacy": {
+    "epsilon": null,
+    "note": "raw images pooled centrally; no formal guarantee"
+  },
+  "config": {
+    "image_size": 256,
+    "architecture": "efficientnetb0",
+    "pretrained": true,
+    "fine_tune_layers": 120,
+    "federated_fine_tune_layers": 0,
+    "num_clients": 10,
+    "dirichlet_alpha": 0.5,
+    "test_fraction": 0.15,
+    "val_fraction": 0.1,
+    "seed": 1337,
+    "epochs": 20,
+    "batch_size": 32,
+    "lr": 4e-05,
+    "weight_decay": 0.0001,
+    "label_smoothing": 0.05,
+    "class_weight_power": 0.9,
+    "checkpoint_metric": "macro_f1",
+    "test_time_augmentation": true,
+    "rounds": 20,
+    "clients_per_round": 5,
+    "local_epochs": 1,
+    "local_batch_size": 32,
+    "local_lr": 0.0002,
+    "server_lr": 1.0,
+    "federated_algorithm": "fedprox",
+    "fedprox_mu": 0.01,
+    "balanced_federated_sampling": false,
+    "dp_mode": "client",
+    "l2_clip": 1.0,
+    "noise_multiplier": 0.8,
+    "delta": 1e-05,
+    "secure_aggregation": true,
+    "microbatches": 32
+  }
+}

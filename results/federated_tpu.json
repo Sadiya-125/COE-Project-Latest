@@ -1,0 +1,744 @@
+{
+  "mode": "fedprox",
+  "history": [
+    {
+      "round": 1,
+      "cohort": [
+        1,
+        3,
+        5,
+        6,
+        9
+      ],
+      "train_loss": 1.8189438104629516,
+      "mean_update_norm": 0.21261338964104654,
+      "epsilon": null,
+      "val_accuracy": 0.41379310344827586,
+      "val_balanced_accuracy": 0.151355607300184,
+      "val_macro_f1": 0.15439122184731255,
+      "val_malignant_sensitivity": 0.3492822966507177,
+      "elapsed_s": 36.66641974449158
+    },
+    {
+      "round": 2,
+      "cohort": [
+        0,
+        1,
+        3,
+        5,
+        8
+      ],
+      "train_loss": 3.3278351068496703,
+      "mean_update_norm": 0.13252766804456564,
+      "epsilon": null,
+      "val_accuracy": 0.3894523326572008,
+      "val_balanced_accuracy": 0.17809652779972157,
+      "val_macro_f1": 0.16614003135011196,
+      "val_malignant_sensitivity": 0.35406698564593303,
+      "elapsed_s": 45.82047462463379
+    },
+    {
+      "round": 3,
+      "cohort": [
+        0,
+        1,
+        3,
+        5,
+        6
+      ],
+      "train_loss": 2.65524685382843,
+      "mean_update_norm": 0.1474504712407989,
+      "epsilon": null,
+      "val_accuracy": 0.48073022312373226,
+      "val_balanced_accuracy": 0.2007482014220968,
+      "val_macro_f1": 0.18531601262065348,
+      "val_malignant_sensitivity": 0.23923444976076555,
+      "elapsed_s": 55.18592190742493
+    },
+    {
+      "round": 4,
+      "cohort": [
+        0,
+        2,
+        3,
+        6,
+        8
+      ],
+      "train_loss": 3.3006465435028076,
+      "mean_update_norm": 0.20064007122429522,
+      "epsilon": null,
+      "val_accuracy": 0.5192697768762677,
+      "val_balanced_accuracy": 0.2208552500777834,
+      "val_macro_f1": 0.20680077212563305,
+      "val_malignant_sensitivity": 0.22488038277511962,
+      "elapsed_s": 68.7082941532135
+    },
+    {
+      "round": 5,
+      "cohort": [
+        0,
+        3,
+        4,
+        6,
+        8
+      ],
+      "train_loss": 2.9448177218437195,
+      "mean_update_norm": 0.20595152536411568,
+      "epsilon": null,
+      "val_accuracy": 0.48580121703853957,
+      "val_balanced_accuracy": 0.2517196065843748,
+      "val_macro_f1": 0.18802646490001954,
+      "val_malignant_sensitivity": 0.05263157894736842,
+      "elapsed_s": 82.63433122634888
+    },
+    {
+      "round": 6,
+      "cohort": [
+        0,
+        2,
+        6,
+        7,
+        9
+      ],
+      "train_loss": 2.9488295555114745,
+      "mean_update_norm": 0.24558253614542336,
+      "epsilon": null,
+      "val_accuracy": 0.5730223123732252,
+      "val_balanced_accuracy": 0.2773329916375958,
+      "val_macro_f1": 0.2505330638971192,
+      "val_malignant_sensitivity": 0.5645933014354066,
+      "elapsed_s": 97.6583092212677
+    },
+    {
+      "round": 7,
+      "cohort": [
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "train_loss": 1.7303918123245239,
+      "mean_update_norm": 0.25894563996176967,
+      "epsilon": null,
+      "val_accuracy": 0.6014198782961461,
+      "val_balanced_accuracy": 0.3061702631493781,
+      "val_macro_f1": 0.27285329469333675,
+      "val_malignant_sensitivity": 0.5741626794258373,
+      "elapsed_s": 111.19562101364136
+    },
+    {
+      "round": 8,
+      "cohort": [
+        0,
+        3,
+        6,
+        7,
+        9
+      ],
+      "train_loss": 2.534404754638672,
+      "mean_update_norm": 0.2042220553468666,
+      "epsilon": null,
+      "val_accuracy": 0.5963488843813387,
+      "val_balanced_accuracy": 0.3150961024037185,
+      "val_macro_f1": 0.26992552976622386,
+      "val_malignant_sensitivity": 0.6889952153110048,
+      "elapsed_s": 123.50912475585938
+    },
+    {
+      "round": 9,
+      "cohort": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "train_loss": 3.3898653864860533,
+      "mean_update_norm": 0.18163036965974758,
+      "epsilon": null,
+      "val_accuracy": 0.6237322515212982,
+      "val_balanced_accuracy": 0.3190068103928115,
+      "val_macro_f1": 0.28591929143974354,
+      "val_malignant_sensitivity": 0.5454545454545454,
+      "elapsed_s": 132.38317608833313
+    },
+    {
+      "round": 10,
+      "cohort": [
+        0,
+        3,
+        4,
+        6,
+        9
+      ],
+      "train_loss": 2.4288700938224794,
+      "mean_update_norm": 0.21334392332002988,
+      "epsilon": null,
+      "val_accuracy": 0.640973630831643,
+      "val_balanced_accuracy": 0.30637506092646205,
+      "val_macro_f1": 0.28438502320984466,
+      "val_malignant_sensitivity": 0.3492822966507177,
+      "elapsed_s": 145.63802123069763
+    },
+    {
+      "round": 11,
+      "cohort": [
+        0,
+        1,
+        2,
+        6,
+        9
+      ],
+      "train_loss": 3.4881673574447634,
+      "mean_update_norm": 0.18408338788774845,
+      "epsilon": null,
+      "val_accuracy": 0.6176470588235294,
+      "val_balanced_accuracy": 0.3579037582292451,
+      "val_macro_f1": 0.3109813306859919,
+      "val_malignant_sensitivity": 0.6172248803827751,
+      "elapsed_s": 156.87627983093262
+    },
+    {
+      "round": 12,
+      "cohort": [
+        2,
+        3,
+        6,
+        8,
+        9
+      ],
+      "train_loss": 2.2105742931365966,
+      "mean_update_norm": 0.23328250299120906,
+      "epsilon": null,
+      "val_accuracy": 0.6227180527383367,
+      "val_balanced_accuracy": 0.36545685355002183,
+      "val_macro_f1": 0.3130669738812446,
+      "val_malignant_sensitivity": 0.6602870813397129,
+      "elapsed_s": 170.02149653434753
+    },
+    {
+      "round": 13,
+      "cohort": [
+        0,
+        1,
+        3,
+        7,
+        9
+      ],
+      "train_loss": 2.7400162696838377,
+      "mean_update_norm": 0.15994291868825508,
+      "epsilon": null,
+      "val_accuracy": 0.6024340770791075,
+      "val_balanced_accuracy": 0.3253792085011091,
+      "val_macro_f1": 0.27046079901186243,
+      "val_malignant_sensitivity": 0.8229665071770335,
+      "elapsed_s": 179.44700002670288
+    },
+    {
+      "round": 14,
+      "cohort": [
+        0,
+        3,
+        5,
+        7,
+        8
+      ],
+      "train_loss": 2.9192212343215944,
+      "mean_update_norm": 0.16685574275311268,
+      "epsilon": null,
+      "val_accuracy": 0.5780933062880325,
+      "val_balanced_accuracy": 0.3375035598990918,
+      "val_macro_f1": 0.2660437791983493,
+      "val_malignant_sensitivity": 0.9043062200956937,
+      "elapsed_s": 188.49729824066162
+    },
+    {
+      "round": 15,
+      "cohort": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "train_loss": 3.853298020362854,
+      "mean_update_norm": 0.1791683307652738,
+      "epsilon": null,
+      "val_accuracy": 0.6135902636916836,
+      "val_balanced_accuracy": 0.36844060838541315,
+      "val_macro_f1": 0.31879887352130565,
+      "val_malignant_sensitivity": 0.7703349282296651,
+      "elapsed_s": 197.24387383460999
+    },
+    {
+      "round": 16,
+      "cohort": [
+        1,
+        2,
+        5,
+        8,
+        9
+      ],
+      "train_loss": 2.557517075538635,
+      "mean_update_norm": 0.1870799402695717,
+      "epsilon": null,
+      "val_accuracy": 0.6024340770791075,
+      "val_balanced_accuracy": 0.34590211522268427,
+      "val_macro_f1": 0.28851996881435327,
+      "val_malignant_sensitivity": 0.8708133971291866,
+      "elapsed_s": 207.0046067237854
+    },
+    {
+      "round": 17,
+      "cohort": [
+        1,
+        4,
+        5,
+        6,
+        9
+      ],
+      "train_loss": 1.331353223323822,
+      "mean_update_norm": 0.200751414219486,
+      "epsilon": null,
+      "val_accuracy": 0.6369168356997972,
+      "val_balanced_accuracy": 0.35568525549328694,
+      "val_macro_f1": 0.3254055202839904,
+      "val_malignant_sensitivity": 0.7272727272727273,
+      "elapsed_s": 218.943425655365
+    },
+    {
+      "round": 18,
+      "cohort": [
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "train_loss": 1.5821197986602784,
+      "mean_update_norm": 0.24013927104600782,
+      "epsilon": null,
+      "val_accuracy": 0.6359026369168357,
+      "val_balanced_accuracy": 0.35425862940005576,
+      "val_macro_f1": 0.3207084561751398,
+      "val_malignant_sensitivity": 0.7033492822966507,
+      "elapsed_s": 231.91395783424377
+    },
+    {
+      "round": 19,
+      "cohort": [
+        1,
+        3,
+        4,
+        6,
+        8
+      ],
+      "train_loss": 1.7089148879051208,
+      "mean_update_norm": 0.17785287984999565,
+      "epsilon": null,
+      "val_accuracy": 0.6389452332657201,
+      "val_balanced_accuracy": 0.38964984909848116,
+      "val_macro_f1": 0.3363484983588196,
+      "val_malignant_sensitivity": 0.33014354066985646,
+      "elapsed_s": 242.24931526184082
+    },
+    {
+      "round": 20,
+      "cohort": [
+        1,
+        3,
+        4,
+        5,
+        9
+      ],
+      "train_loss": 1.27423495054245,
+      "mean_update_norm": 0.1756011538592414,
+      "epsilon": null,
+      "val_accuracy": 0.665314401622718,
+      "val_balanced_accuracy": 0.3949242597188133,
+      "val_macro_f1": 0.3501900539130425,
+      "val_malignant_sensitivity": 0.44019138755980863,
+      "elapsed_s": 252.31217217445374
+    }
+  ],
+  "val": {
+    "accuracy": 0.665314401622718,
+    "balanced_accuracy": 0.3949242597188133,
+    "macro_precision": 0.34941057789869007,
+    "macro_recall": 0.3949242597188133,
+    "macro_f1": 0.3501900539130425,
+    "malignant_sensitivity": 0.44019138755980863,
+    "malignant_specificity": 0.8661518661518661,
+    "per_class_recall": {
+      "akiec": 0.1388888888888889,
+      "bcc": 0.6226415094339622,
+      "bkl": 0.5148514851485149,
+      "df": 0.0,
+      "mel": 0.15833333333333333,
+      "nv": 0.8297546012269938,
+      "vasc": 0.5
+    },
+    "confusion_matrix": [
+      [
+        5,
+        14,
+        12,
+        0,
+        1,
+        4,
+        0
+      ],
+      [
+        2,
+        33,
+        10,
+        0,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        18,
+        52,
+        0,
+        10,
+        17,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        0,
+        1,
+        5,
+        0
+      ],
+      [
+        4,
+        14,
+        30,
+        0,
+        19,
+        53,
+        0
+      ],
+      [
+        5,
+        36,
+        30,
+        0,
+        31,
+        541,
+        9
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        5,
+        6
+      ]
+    ],
+    "num_samples": 986
+  },
+  "test": {
+    "accuracy": 0.6677762982689747,
+    "balanced_accuracy": 0.3752478458904177,
+    "macro_precision": 0.3629910913741721,
+    "macro_recall": 0.3752478458904177,
+    "macro_f1": 0.3391194943253865,
+    "malignant_sensitivity": 0.4527687296416938,
+    "malignant_specificity": 0.8794979079497908,
+    "per_class_recall": {
+      "akiec": 0.18518518518518517,
+      "bcc": 0.5783132530120482,
+      "bkl": 0.5057471264367817,
+      "df": 0.0,
+      "mel": 0.17058823529411765,
+      "nv": 0.836901121304791,
+      "vasc": 0.35
+    },
+    "confusion_matrix": [
+      [
+        10,
+        20,
+        17,
+        0,
+        1,
+        5,
+        1
+      ],
+      [
+        1,
+        48,
+        16,
+        0,
+        2,
+        15,
+        1
+      ],
+      [
+        2,
+        26,
+        88,
+        0,
+        17,
+        36,
+        5
+      ],
+      [
+        1,
+        9,
+        5,
+        0,
+        0,
+        5,
+        0
+      ],
+      [
+        3,
+        25,
+        42,
+        0,
+        29,
+        67,
+        4
+      ],
+      [
+        3,
+        50,
+        49,
+        0,
+        31,
+        821,
+        27
+      ],
+      [
+        0,
+        5,
+        3,
+        0,
+        0,
+        5,
+        7
+      ]
+    ],
+    "num_samples": 1502
+  },
+  "wall_time_s": 258.7448420524597,
+  "num_params": 4058538,
+  "federation": {
+    "num_clients": 10,
+    "client_sizes": [
+      203,
+      63,
+      966,
+      678,
+      991,
+      548,
+      1426,
+      893,
+      528,
+      1231
+    ],
+    "clients": [
+      {
+        "client_id": 0,
+        "name": "Hospital-01",
+        "num_samples": 203,
+        "num_lesions": 140,
+        "label_counts": {
+          "akiec": 20,
+          "bcc": 0,
+          "bkl": 5,
+          "df": 13,
+          "mel": 0,
+          "nv": 128,
+          "vasc": 37
+        }
+      },
+      {
+        "client_id": 1,
+        "name": "Hospital-02",
+        "num_samples": 63,
+        "num_lesions": 34,
+        "label_counts": {
+          "akiec": 0,
+          "bcc": 0,
+          "bkl": 24,
+          "df": 0,
+          "mel": 32,
+          "nv": 4,
+          "vasc": 3
+        }
+      },
+      {
+        "client_id": 2,
+        "name": "Hospital-03",
+        "num_samples": 966,
+        "num_lesions": 710,
+        "label_counts": {
+          "akiec": 1,
+          "bcc": 44,
+          "bkl": 71,
+          "df": 62,
+          "mel": 121,
+          "nv": 666,
+          "vasc": 1
+        }
+      },
+      {
+        "client_id": 3,
+        "name": "Hospital-04",
+        "num_samples": 678,
+        "num_lesions": 528,
+        "label_counts": {
+          "akiec": 26,
+          "bcc": 26,
+          "bkl": 61,
+          "df": 0,
+          "mel": 4,
+          "nv": 552,
+          "vasc": 9
+        }
+      },
+      {
+        "client_id": 4,
+        "name": "Hospital-05",
+        "num_samples": 991,
+        "num_lesions": 751,
+        "label_counts": {
+          "akiec": 0,
+          "bcc": 41,
+          "bkl": 231,
+          "df": 0,
+          "mel": 1,
+          "nv": 713,
+          "vasc": 5
+        }
+      },
+      {
+        "client_id": 5,
+        "name": "Hospital-06",
+        "num_samples": 548,
+        "num_lesions": 409,
+        "label_counts": {
+          "akiec": 1,
+          "bcc": 2,
+          "bkl": 5,
+          "df": 5,
+          "mel": 136,
+          "nv": 394,
+          "vasc": 5
+        }
+      },
+      {
+        "client_id": 6,
+        "name": "Hospital-07",
+        "num_samples": 1426,
+        "num_lesions": 1089,
+        "label_counts": {
+          "akiec": 9,
+          "bcc": 17,
+          "bkl": 178,
+          "df": 2,
+          "mel": 154,
+          "nv": 1034,
+          "vasc": 32
+        }
+      },
+      {
+        "client_id": 7,
+        "name": "Hospital-08",
+        "num_samples": 893,
+        "num_lesions": 631,
+        "label_counts": {
+          "akiec": 4,
+          "bcc": 88,
+          "bkl": 24,
+          "df": 0,
+          "mel": 218,
+          "nv": 559,
+          "vasc": 0
+        }
+      },
+      {
+        "client_id": 8,
+        "name": "Hospital-09",
+        "num_samples": 528,
+        "num_lesions": 357,
+        "label_counts": {
+          "akiec": 101,
+          "bcc": 95,
+          "bkl": 217,
+          "df": 0,
+          "mel": 60,
+          "nv": 45,
+          "vasc": 10
+        }
+      },
+      {
+        "client_id": 9,
+        "name": "Hospital-10",
+        "num_samples": 1231,
+        "num_lesions": 954,
+        "label_counts": {
+          "akiec": 75,
+          "bcc": 65,
+          "bkl": 8,
+          "df": 1,
+          "mel": 97,
+          "nv": 977,
+          "vasc": 8
+        }
+      }
+    ]
+  },
+  "privacy": {
+    "epsilon": null,
+    "secure_aggregation": true,
+    "note": "FedAvg without DP: data stays local, no formal guarantee"
+  },
+  "communication": {
+    "params_per_message": 8967,
+    "bytes_per_client_round": 35868,
+    "total_uplink_mb": 3.5868
+  },
+  "config": {
+    "image_size": 224,
+    "architecture": "efficientnetb0",
+    "pretrained": true,
+    "fine_tune_layers": 20,
+    "federated_fine_tune_layers": 0,
+    "num_clients": 10,
+    "dirichlet_alpha": 0.5,
+    "test_fraction": 0.15,
+    "val_fraction": 0.1,
+    "seed": 1337,
+    "epochs": 12,
+    "batch_size": 32,
+    "lr": 0.0002,
+    "weight_decay": 0.0001,
+    "label_smoothing": 0.05,
+    "checkpoint_metric": "macro_f1",
+    "rounds": 20,
+    "clients_per_round": 5,
+    "local_epochs": 1,
+    "local_batch_size": 32,
+    "local_lr": 0.0002,
+    "server_lr": 1.0,
+    "federated_algorithm": "fedprox",
+    "fedprox_mu": 0.01,
+    "dp_mode": "none",
+    "l2_clip": 1.0,
+    "noise_multiplier": 0.8,
+    "delta": 1e-05,
+    "secure_aggregation": true,
+    "microbatches": 32
+  }
+}
